@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+// Import dependencies
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+// @import "node_modules/ress/dist/ress.min.css";
+
+@font-face {
+    font-family: "riimonaka";
+    src: url("/fonts/riimonaka.woff") format("woff");
+}
+
+@font-face {
+    font-family: "tanuki";
+    src: url("/fonts/TanukiMagic.woff") format("woff"),
+         url("/fonts/TanukiMagic.woff2") format("woff2");
+}
+
+
+:root{
+    --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "tanuki";
+}
+
+.span{
+    font-family: "tanuki";
+}
+
+.text{
+    font-family: "tanuki";
+    font-size: 20px;
+}
+
+/* フッター
+-------------------------*/
+footer {
+    background: #ff6c94;
+    text-align: center;
+    padding: 18px 0;
+}
+footer p {
+    color: black;
+    font-size: 0.875rem;
+}
+
+/* nav
+-------------------------*/
+.collapse {
+    background-color: #ff6c94;
+}
+
+.navbar-dark  {
+    background-color: #ff6c94;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.main-nav a {
+    color: black;
+}
+.main-nav :hover {
+    color: #3aacad
+}
+
+.jumbotron {
+    margin-bottom: 34px;
+    padding-bottom: 15px;
+
+}
+header {
+    color: #ddfae4;
+}
+
+/* ボディ
+--------------------------------*/
+.card-body {
+    color: #3aacad;
+}
+.jumbotron0_3  {
+    background-color: #f8e5ef;
+}
+.jumbotron4_7 {
+    background-color: rgb(226, 247, 233);
+}
+.jumbotron8_11 {
+    background-color: rgb(243, 234, 253);
+}
+
+/*  レスポンシブ
+-----------------------------------*/
+@media (max-width: 600px) {
+    .main-nav {
+        font-size: 1rem;
+        margin: 0 20px;
+    }
+}
