@@ -2,7 +2,7 @@
   "name": "web_template",
   "version": "1.0.0",
   "main": "index.html",
-  "private": "true",
+  "private": true,
   "keywords": [
     "boilerplate",
     "bootstrap",
@@ -42,5 +42,6 @@
     "dev": "gulp dev",
     "dist": "gulp dist"
   },
-  "description": ""
+  "description": "",
+  "repository": "https://github.com/MiyakoTamura385/Maho-s-album.git"
 }
